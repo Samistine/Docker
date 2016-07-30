@@ -6,7 +6,7 @@ docker run \
 --name=jenkins-data \
 -v /opt/jenkins-volume/jenkins:/var/jenkins_home \
 -v /opt/jenkins-volume/log:/var/log/jenkins \
-samistine:jenkins-data
+samistine\jenkins-data
 ```
 
 ## Volumes
